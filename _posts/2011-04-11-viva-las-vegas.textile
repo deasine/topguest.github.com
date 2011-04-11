@@ -1,0 +1,13 @@
+---
+layout: post
+title: Viva Las Vegas: New partnership with Total Rewards
+filename: 2011-04-11-viva-las-vegas.textile
+---
+
+h1. {{ page.title }}
+
+jQuery makes DOM traversal incredibly easy, but one shouldn't opt for the first technique that seems to work. In particular, we should code our traversal logic defensively, being mindful of the potential for breakage when a team member (or forgetful future you) invariably modifies the markup.
+
+A heuristic that I've found helpful is that one should traverse based on _semantics_, not _layout_ (layout changes often, semantics change rarely).
+
+Take an example where we have some dogs, each of which will wag its tail if the user clicks its head. Your markup may look like this:
