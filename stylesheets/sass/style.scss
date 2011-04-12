@@ -14,6 +14,7 @@ body {
   color: $text-color; 
 	letter-spacing: .04em;
 	font-weight: $medium;
+	text-shadow: 0px 0px 3px #363e45;
 }
 
 a, a:active, a:visited {
@@ -59,19 +60,17 @@ header {
 	.meta-data {
 		position: relative;
 		a.image-link {
-			height: 60px;
+			height: 58px;
 			width: 60px;
 			display: block;
-		}
-		.cover {
-			position: absolute;
-			top: 0;
-			left: 2px;
-			background: #000;
-			opacity: 0.2;
-			height: 56px;
-			width: 56px;
-			cursor: pointer;
+			background: black;
+			margin-bottom: 2px;
+			img {
+				opacity: 0.8;
+			}
+			&:hover img {
+				opacity: 1;
+			}
 		}
 		.author-link {
 			display: block;
@@ -88,9 +87,6 @@ header {
 		margin-top: 16px;
 	}
 }
-
-
-
 
 
 
