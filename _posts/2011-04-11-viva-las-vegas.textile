@@ -1,7 +1,11 @@
 ---
 layout: post
-title: Viva Las Vegas: New partnership with Total Rewards
+title: Viva Las Vegas &ndash; New partnership with Total Rewards
 filename: 2011-04-11-viva-las-vegas.textile
+author: Geoff Lewis
+author-image: geoff-lewis.jpg
+author-link: http://www.linkedin.com/pub/geoffrey-lewis/2/ba/49a
+summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 ---
 
 h1. {{ page.title }}

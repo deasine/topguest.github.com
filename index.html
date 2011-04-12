@@ -23,11 +23,20 @@ layout: none
 	<div id="container">
 		<header>
       <h1>Topguest blog</h1>
+      <a href="http://topguest.com">Visit topguest.com</a>
 		</header>
 
 		<div id="main" role="main">
       {% for post in site.posts %}
-      <a href="{{ post.url }}">{{ post.title }}</a></td><td class="date">{{ post.date | date_to_string }}
+        <section>
+          <div class="meta-data">
+            <img src="/images/{{ post.author-image }}" alt="{{ post.author }}" />
+            <a href="{{ post.author-link }}">{{ post.author }}</a>
+            <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
+          </div>
+          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          <p>{{ post.summary }}
+        </section>
       {% endfor %}
 		</div>
 
