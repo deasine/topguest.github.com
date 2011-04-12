@@ -111,6 +111,7 @@ homepage
 		font-weight: $medium;
 		letter-spacing: 2px;
 		margin-top: 12px;
+		color: #c9c9c9;
 	}
 	.post-summary {
 		margin-top: 16px;
@@ -144,7 +145,37 @@ homepage
 }
 
 
-
-
+/* ---------
+footer
+-----------*/
+footer {
+	padding: 30px 0;
+	#tg-logo-home {
+		background: transparent  url(/images/bg/tg.png) no-repeat top;
+		width: 60px;
+		height: 52px;
+		display: block;
+		text-indent: -9999px;
+		&:hover {
+			background-position: bottom;
+		}
+	}
+	.tagline {
+		font-size: 33px;
+		letter-spacing: 2px;
+		margin: 14px 0 0 0;
+	}
+	#footer-links {
+		margin: 10px 0 0 0;
+		list-style: none;
+		li {
+			float: left;
+			margin-right: 25px;
+		}
+	}
+	#fine-print {
+		margin-top: 20px;
+	}
+}
 
 @import "boilerplate"; 

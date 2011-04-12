@@ -39,7 +39,13 @@ layout: none
             <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
           </div>
           <div class="grid_5">
-            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            <h1>
+              {% if post.summary-only %}
+                 {{ post.title }}
+              {% else %}
+                 <a href="{{ post.url }}">{{ post.title }}</a>
+              {% endif %}              
+            </h1>
           </div>
           <div class="grid_5 omega">
             <p class="post-summary">{{ post.summary }}</p>
@@ -84,7 +90,20 @@ layout: none
 	<footer>
     <div class="container_12">
   		<div class="grid_12">
-  		  <p>Fine print</p>
+  		  <div class="grid_1 alpha">
+  		    <a id="tg-logo-home" href="http://topguest.com">Topguest</a>
+  		  </div>
+  		  <div class="grid_11 omega">
+  		    <p class="tagline">Perks for social travelers from top rewards programs</p>
+  		    <ul id="footer-links">
+  		      <li>2011 Topguest</li>
+  		      <li><a href="http://topguest.com">Visit topguest.com</a></li>
+  		      <li><a href="http://www.topguest.com/partner">Solutions for loyalty programs</a></li>
+  		      <li><a href="mailto:help@topguest.com">Contact us</a></li>
+  		    </ul>  		    
+  		  </div>
+  		  <div class="clear"></div>
+		    <p id="fine-print">Hosted by <a href="https://github.com/Topguest/topguest.github.com">Github</a> and powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>. Licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons attribution-share alike license</a>.</p>  		  
   		</div>
   	</div>
 	</footer>

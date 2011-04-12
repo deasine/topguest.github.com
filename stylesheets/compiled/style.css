@@ -762,7 +762,8 @@ homepage
     line-height: 36px;
     font-weight: 300;
     letter-spacing: 2px;
-    margin-top: 12px; }
+    margin-top: 12px;
+    color: #c9c9c9; }
   .post-home .post-summary {
     margin-top: 16px; }
 
@@ -785,6 +786,32 @@ homepage
     border: 2px solid #2d3339; }
     #media #images a.image-link.omega {
       margin-right: 0; }
+
+/* ---------
+footer
+-----------*/
+footer {
+  padding: 30px 0; }
+  footer #tg-logo-home {
+    background: transparent url(/images/bg/tg.png) no-repeat top;
+    width: 60px;
+    height: 52px;
+    display: block;
+    text-indent: -9999px; }
+    footer #tg-logo-home:hover {
+      background-position: bottom; }
+  footer .tagline {
+    font-size: 33px;
+    letter-spacing: 2px;
+    margin: 14px 0 0 0; }
+  footer #footer-links {
+    margin: 10px 0 0 0;
+    list-style: none; }
+    footer #footer-links li {
+      float: left;
+      margin-right: 25px; }
+  footer #fine-print {
+    margin-top: 20px; }
 
 .ir {
   display: block;
