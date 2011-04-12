@@ -16,27 +16,35 @@ layout: none
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="stylesheet" href="stylesheets/compiled/style.css?v=2">
-
+  
+  <script type="text/javascript" src="http://use.typekit.com/ril2nrf.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<script src="js/libs/modernizr-1.7.min.js"></script>
 </head>
 <body>
   
 	<div id="container" class="container_12">
 		<header class="grid_12">
-      <h1>Topguest blog</h1>
-      <a href="http://topguest.com">Visit topguest.com</a>
+      <h1><a href="/">Topguest blog</a></h1>
+      <a id="topguest" href="http://topguest.com">Visit topguest.com</a>
 		</header>
 
 		<div id="main" role="main" class="grid_12">
       {% for post in site.posts %}
-        <section>
-          <div class="meta-data">
-            <img src="/images/{{ post.author-image }}" alt="{{ post.author }}" />
-            <a href="{{ post.author-link }}">{{ post.author }}</a>
+        <section class="post-home">
+          <div class="meta-data grid_2 alpha">
+            <a class="image-link" href="{{ post.author-link }}"><img src="/images/{{ post.author-image }}" alt="{{ post.author }}" /></a>
+            <div class="cover"></div>
+            <div class="clear"></div>            
+            <a class="author-link" href="{{ post.author-link }}">{{ post.author }}</a>
             <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
           </div>
-          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-          <p>{{ post.summary }}
+          <div class="grid_5">
+            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          </div>
+          <div class="grid_5 omega">
+            <p class="post-summary">{{ post.summary }}</p>
+          </div>
         </section>
       {% endfor %}
 		</div>

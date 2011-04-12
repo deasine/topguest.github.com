@@ -1,6 +1,3 @@
-.fuck {
-  background: red; }
-
 /*
   960 Grid System ~ Core CSS.
   Learn more ~ http://960.gs/
@@ -675,14 +672,74 @@ a, a:active, a:visited {
 a:hover {
   color: #036; }
 
-/*  HTML5 ✰ Boilerplate  */
-/*
-    // ========================================== \\
-   ||                                              ||
-   ||               Your styles !                  ||
-   ||                                              ||
-    \\ ========================================== //
-*/
+html {
+  -webkit-font-smoothing: antialiased;
+  /*background: $bg-color;*/ }
+
+body {
+  background: url(/images/bg/body.gif) repeat;
+  font: 15px/22px "proxima-nova-1", "proxima-nova-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #e6e6e6;
+  letter-spacing: .04em;
+  font-weight: 300; }
+
+a, a:active, a:visited {
+  color: #6bb9f2;
+  text-decoration: none; }
+
+a:hover {
+  color: #dfe6f3; }
+
+header {
+  padding: 34px 0 30px 160px;
+  overflow: hidden; }
+  header h1 {
+    width: 383px;
+    height: 33px;
+    float: left; }
+    header h1 a {
+      background: transparent url(/images/bg/h1.png) top no-repeat;
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-indent: -9999px; }
+      header h1 a:hover {
+        background-position: bottom; }
+  header #topguest {
+    float: left;
+    margin: 14px 0 0 20px; }
+
+.post-home {
+  border-top: 2px solid #2d3339; }
+  .post-home img {
+    border: 2px solid #2d3339;
+    border-top: none; }
+  .post-home .meta-data {
+    position: relative; }
+    .post-home .meta-data a.image-link {
+      height: 60px;
+      width: 60px;
+      display: block; }
+    .post-home .meta-data .cover {
+      position: absolute;
+      top: 0;
+      left: 2px;
+      background: #000;
+      opacity: 0.2;
+      height: 56px;
+      width: 56px;
+      cursor: pointer; }
+    .post-home .meta-data .author-link {
+      display: block; }
+  .post-home h1 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: 12px; }
+  .post-home .post-summary {
+    margin-top: 16px; }
+
 .ir {
   display: block;
   text-indent: -999em;

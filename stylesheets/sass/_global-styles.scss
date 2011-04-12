@@ -1,0 +1,81 @@
+//Colors
+$bg-color: #131517;
+$text-color: #e6e6e6;
+$line-color: #2d3339;
+$secondary-text-color: #E3C89F;
+$link-color: #6bb9f2;
+$link-hover-color: #dfe6f3; 
+$grey-bg: #1c1c1c;
+$nav-blue-bg: #12181C;
+$nav-blue-hover: #131c22;
+$nav-blue-selected: #0a1014;
+$sidebar-blue-bg: #0f1417;
+
+$font-size: 15px;
+$line-height: 22px;
+
+//Font weights
+$medium: 300;
+$bold: 600;
+
+//Rounded corners
+$border-radius: 5px;
+@mixin round-corners($dist) {
+  -webkit-border-radius: $dist;
+  -moz-border-radius: $dist;
+  border-radius: $dist;
+}
+
+//Text shadow
+$shadow-color: #434347; $shadow-x: 1px; $shadow-y: 1px; $shadow-blur: 2px;
+@mixin shadow($color, $x, $y, $blur) {
+	text-shadow: $color $x $y $blur;
+}
+
+//Base button styles
+@mixin button-base {
+  @include button-bg($form-button-bg-top, $form-button-bg-bottom);
+	color: $link-color;
+	padding: 3px 10px;
+	@include round-corners($border-radius);
+	border: 1px solid #1a2b38;
+}
+@mixin button-hover {
+  color: #fff !important; 
+  background: #11202A; 
+}
+
+//Button backgrounds
+$button-bg-top: #466299; $button-bg-bottom: #26477e;
+$button-bg-top-hover: #324c7f; $button-bg-bottom-hover: #25457c;
+$form-button-bg-top: #11202A; $form-button-bg-bottom: #12181D; 
+@mixin button-bg($top, $bottom) {
+	background: $bottom;
+	background: -webkit-gradient(linear, left top, left bottom, from($top), to($bottom)); 
+	background: -moz-linear-gradient(top,  $top,  $bottom);	
+}
+
+//Download buttons
+@mixin download-button {
+	display: block;
+  padding: 0px;
+  width: 184px;
+  height: 50px;
+	@include button-bg($button-bg-top, $button-bg-bottom);
+	@include shadow($shadow-color, $shadow-x, $shadow-y, $shadow-blur);
+	color: #fff;
+}
+@mixin download-button-hover {
+	color: $text-color !important; 
+	@include button-bg($button-bg-top-hover, $button-bg-bottom-hover);
+}
+
+//Box Shadow
+$h-length: 0px; $v-length: 0px; $shadow-blur: 4px; $sh-color: #090909;
+$v-length-fixed: 2px;
+@mixin box-shadow($h, $v, $b, $c) {
+	-webkit-box-shadow: $h $v $b $c;
+	-moz-box-shadow: $h $v $b $c;
+	box-shadow: $h $v $b $c;
+}
+
