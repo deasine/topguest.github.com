@@ -71,7 +71,7 @@ $form-button-bg-top: #11202A; $form-button-bg-bottom: #12181D;
 }
 
 //Box Shadow
-$h-length: 0px; $v-length: 0px; $shadow-blur: 4px; $sh-color: #090909;
+$h-length: 0px; $v-length: 0px; $shadow-blur: 4px; $sh-color: #252a2f;
 $v-length-fixed: 2px;
 @mixin box-shadow($h, $v, $b, $c) {
 	-webkit-box-shadow: $h $v $b $c;

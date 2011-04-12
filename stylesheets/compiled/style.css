@@ -674,15 +674,26 @@ a:hover {
 
 html {
   -webkit-font-smoothing: antialiased;
-  /*background: $bg-color;*/ }
+  background: #131517; }
 
 body {
   background: url(/images/bg/body.gif) repeat;
   font: 15px/22px "proxima-nova-1", "proxima-nova-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #e6e6e6;
-  letter-spacing: .04em;
+  letter-spacing: 0.05em;
   font-weight: 300;
   text-shadow: 0px 0px 3px #363e45; }
+
+#media {
+  background: url(/images/bg/media.gif) repeat;
+  overflow: hidden;
+  border-bottom: 2px solid #2d3339; }
+
+footer {
+  background: #131517; }
+
+.container_12 {
+  overflow: hidden; }
 
 a, a:active, a:visited {
   color: #6bb9f2;
