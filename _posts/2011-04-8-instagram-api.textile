@@ -2,9 +2,9 @@
 layout: post
 title: Instagram API &ndash; The good and the bad
 filename: 2011-04-8-instagram-api.textile
-author: Geoff Lewis
-author-image: geoff-lewis.jpg
-author-link: http://www.linkedin.com/pub/geoffrey-lewis/2/ba/49a
+author: Tim Olshansky
+author-image: tim-olshansky.jpg
+author-link: http://www.linkedin.com/in/timols
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 ---
 

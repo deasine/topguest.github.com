@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Viva Las Vegas &ndash; Topguest and Total Rewards
-filename: 2011-04-11-viva-las-vegas.textile
-author: Geoff Lewis
-author-image: geoff-lewis.jpg
-author-link: http://www.linkedin.com/pub/geoffrey-lewis/2/ba/49a
+title: Working the flow with Sass CSS
+filename: 2011-03-22-working-the-flow-with-sass-css.textile
+author: Nathan McGinness
+author-image: nathan-mcginness.jpg
+author-link: http://www.linkedin.com/pub/nathan-mcginness/3/b2a/800
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 ---
 

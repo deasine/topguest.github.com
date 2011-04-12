@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Viva Las Vegas &ndash; Topguest and Total Rewards
-filename: 2011-04-11-viva-las-vegas.textile
-author: Geoff Lewis
-author-image: geoff-lewis.jpg
-author-link: http://www.linkedin.com/pub/geoffrey-lewis/2/ba/49a
+title: Virgin America Instagram competition
+filename: 2011-04-03-virgin-america-instagram-competition.textile
+author: Ash Fontana
+author-image: ash-fontana.jpg
+author-link: http://www.linkedin.com/in/ashfontana
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 ---
 
