@@ -695,6 +695,7 @@ footer {
 .container_12 {
   overflow: hidden; }
 
+/*general*/
 a, a:active, a:visited {
   color: #6bb9f2;
   text-decoration: none; }
@@ -702,6 +703,23 @@ a, a:active, a:visited {
 a:hover {
   color: #dfe6f3; }
 
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 20px; }
+
+a.image-link {
+  display: block;
+  background: black;
+  margin-bottom: 2px; }
+  a.image-link img {
+    opacity: 0.8; }
+  a.image-link:hover img {
+    opacity: 1; }
+
+/*header*/
 header {
   padding: 34px 0 30px 160px;
   overflow: hidden; }
@@ -721,6 +739,10 @@ header {
     float: left;
     margin: 14px 0 0 20px; }
 
+/* ---------
+homepage
+-----------*/
+/*blog home*/
 .post-home {
   border-top: 2px solid #2d3339;
   overflow: hidden;
@@ -732,14 +754,7 @@ header {
     position: relative; }
     .post-home .meta-data a.image-link {
       height: 58px;
-      width: 60px;
-      display: block;
-      background: black;
-      margin-bottom: 2px; }
-      .post-home .meta-data a.image-link img {
-        opacity: 0.8; }
-      .post-home .meta-data a.image-link:hover img {
-        opacity: 1; }
+      width: 60px; }
     .post-home .meta-data .author-link {
       display: block; }
   .post-home h1 {
@@ -750,6 +765,26 @@ header {
     margin-top: 12px; }
   .post-home .post-summary {
     margin-top: 16px; }
+
+/*press*/
+#media {
+  padding: 20px 0 0 0; }
+  #media h2 {
+    line-height: 30px; }
+  #media ul {
+    margin: 0;
+    list-style: none; }
+    #media ul li {
+      margin-bottom: 12px; }
+  #media #images a.image-link {
+    height: 136px;
+    width: 136px;
+    float: left;
+    margin: 0 20px 20px 0;
+    display: block;
+    border: 2px solid #2d3339; }
+    #media #images a.image-link.omega {
+      margin-right: 0; }
 
 .ir {
   display: block;
