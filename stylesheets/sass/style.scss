@@ -50,6 +50,8 @@ header {
 
 .post-home {
 	border-top: 2px solid $line-color;
+	overflow: hidden;
+	padding-bottom: 30px;
 	img {
 		border: 2px solid $line-color;
 		border-top: none;
