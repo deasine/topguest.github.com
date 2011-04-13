@@ -139,16 +139,6 @@ homepage
 	h2 {
 		line-height: 30px;
 	}
-	ul {
-		margin: 0;
-		list-style: none;
-		li {
-			margin-bottom: 12px;
-			.source {
-				margin-bottom: 0;
-			}
-		}
-	}
 	#images a.image-link {
 		height: 136px;
 		width: 136px;
@@ -188,6 +178,11 @@ homepage
 		margin-bottom: 30px;
 	}
 }
+
+/* ---------
+press page
+-----------*/
+@include press-list;
 
 /* ---------
 footer

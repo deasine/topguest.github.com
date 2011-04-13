@@ -79,3 +79,15 @@ $v-length-fixed: 2px;
 	box-shadow: $h $v $b $c;
 }
 
+@mixin press-list {
+	ul#press {
+		margin: 0;
+		list-style: none;
+		li {
+			margin-bottom: 12px;
+			.source {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
