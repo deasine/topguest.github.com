@@ -641,12 +641,12 @@ input:invalid, textarea:invalid {
   background-color: #f0dddd; }
 
 ::-moz-selection {
-  background: #FF5E99;
+  background: #D1A96D;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #FF5E99;
+  background: #D1A96D;
   color: #fff;
   text-shadow: none; }
 
