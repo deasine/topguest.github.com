@@ -707,7 +707,7 @@ h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 300;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-bottom: 20px; }
 
 a.image-link {
@@ -784,7 +784,7 @@ homepage
     font-size: 30px;
     line-height: 36px;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-top: 12px;
     color: #c9c9c9; }
   .post-home .post-summary {
@@ -854,7 +854,7 @@ footer {
       background-position: bottom; }
   footer .tagline {
     font-size: 33px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin: 14px 0 0 0; }
   footer #footer-links {
     margin: 10px 0 0 0;
