@@ -56,10 +56,30 @@ a.image-link {
 		opacity: 1;
 	}
 }
+p, ul, ol {
+	margin-bottom: 18px;
+} 
+em {
+	color: #e3c89f;
+}
+img.author {
+	border: 2px solid $line-color;
+	border-top: none;
+}
+.meta-data {
+	position: relative;
+	a.image-link {
+		height: 58px;
+		width: 60px;
+	}
+	.author-link {
+		display: block;
+	}
+}
 
 /*header*/
 header {
-	padding: 34px 0 30px 160px;
+	padding: 44px 0 40px 158px;
 	overflow: hidden;
 	h1 {
 		width: 383px;
@@ -82,6 +102,8 @@ header {
 	}
 }
 
+
+
 /* ---------
 homepage
 -----------*/
@@ -90,21 +112,7 @@ homepage
 .post-home {
 	border-top: 2px solid $line-color;
 	overflow: hidden;
-	padding-bottom: 30px;
-	img {
-		border: 2px solid $line-color;
-		border-top: none;
-	}
-	.meta-data {
-		position: relative;
-		a.image-link {
-			height: 58px;
-			width: 60px;
-		}
-		.author-link {
-			display: block;
-		}
-	}
+	padding-bottom: 30px;	
 	h1 {
 		font-size: $font-size * 2;
 		line-height: ($font-size * 2) + 6;
@@ -129,6 +137,9 @@ homepage
 		list-style: none;
 		li {
 			margin-bottom: 12px;
+			.source {
+				margin-bottom: 0;
+			}
 		}
 	}
 	#images a.image-link {
@@ -144,6 +155,28 @@ homepage
 	} 
 }
 
+/*Posts*/
+#post {
+	overflow: hidden;
+	padding-bottom: 20px;
+	.meta-data {
+		border-top: 2px solid $line-color;
+		margin-right: 0 !important;
+		padding-right: 20px;
+	}
+	.post-body {
+		border-top: 2px solid $line-color;
+		margin-left: 0 !important;
+	}
+	h1 {
+		font-size: $font-size * 2;
+		line-height: ($font-size * 2) + 6;
+		font-weight: $medium;
+		letter-spacing: 2px;
+		margin-top: 12px;
+		margin-bottom: 18px;
+	}
+}
 
 /* ---------
 footer

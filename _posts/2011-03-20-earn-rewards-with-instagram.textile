@@ -1,0 +1,16 @@
+---
+layout: post
+title: Earn rewards with Instagram
+filename: 2011-03-20-earn-rewards-with-instagram.textile
+author: Tim Olshansky
+author-image: tim-olshansky.jpg
+author-link: http://www.linkedin.com/in/timols
+<!-- summary-only: yes -->
+summary: We've used the recently announced Instagram API to allow Topguest users to earn rewards with Instagram (just be sure to geo-tag the photo by completing the ‘where’ field).
+---
+
+h1. {{ page.title }}
+
+We've used the recently announced Instagram API to allow Topguest users to earn rewards with Instagram (just be sure to geo-tag the photo by completing the ‘where’ field).
+
+Visit your "settings page":http://topguest.com/settings to configure your account. 

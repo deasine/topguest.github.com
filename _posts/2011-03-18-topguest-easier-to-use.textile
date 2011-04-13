@@ -1,0 +1,16 @@
+---
+layout: post
+title: Topguest gets a facelift
+filename: 2011-03-18-topguest-easier-to-use.textile
+author: Nathan McGinness
+author-image: nathan-mcginness.jpg
+author-link: http://www.linkedin.com/pub/nathan-mcginness/3/b2a/800
+<!-- summary-only: yes -->
+summary: We have redesigned the website with you and your rewards in mind. A new rewards page gives you a breakdown of your reward programs including information on what your points are worth.
+---
+
+h1. {{ page.title }}
+
+We have redesigned the website with you and your rewards in mind. A new rewards page gives you a breakdown of your reward programs including information on what your points are worth.
+
+Additionally, configuring your account and adding membership numbers is faster and easier.
