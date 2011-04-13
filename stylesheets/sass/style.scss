@@ -76,6 +76,13 @@ img.author {
 		display: block;
 	}
 }
+.button { 
+	@include button-base;
+	padding: 6px 14px;
+	&:hover {
+		@include button-hover;
+	}
+}
 
 /*header*/
 header {
@@ -128,7 +135,7 @@ homepage
 
 /*press*/
 #media {
-	padding: 20px 0 0 0;
+	padding: 20px 0 20px 0;
 	h2 {
 		line-height: 30px;
 	}
@@ -153,6 +160,10 @@ homepage
 			margin-right: 0;
 		}
 	} 
+}
+#press-button {
+	display: inline-block;
+	margin-top: 4px;
 }
 
 /*Posts*/
