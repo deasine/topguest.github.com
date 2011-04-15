@@ -750,6 +750,30 @@ img.author {
   padding: 6px 14px; }
   .button:hover {
     color: #fff !important;
+    background: #11202A;
+    border: 1px solid #faa; }
+
+#fork {
+  width: 200px;
+  text-align: center;
+  background: #12181d;
+  background: -webkit-gradient(linear, left top, left bottom, from(#11202a), to(#12181d));
+  background: -moz-linear-gradient(top, #11202a, #12181d);
+  color: #6bb9f2;
+  padding: 3px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #1a2b38;
+  overflow: hidden;
+  position: absolute;
+  right: -55px;
+  top: 40px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  border-color: #50616e; }
+  #fork:hover {
+    color: #fff !important;
     background: #11202A; }
 
 /*header*/

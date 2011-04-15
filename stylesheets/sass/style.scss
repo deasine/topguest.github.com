@@ -81,6 +81,22 @@ img.author {
 	padding: 6px 14px;
 	&:hover {
 		@include button-hover;
+		border: 1px solid #faa;		
+	}
+}
+#fork {
+	width: 200px;
+	text-align: center;
+	@include button-base;
+	overflow: hidden;
+	position: absolute;
+  right: -55px;
+  top: 40px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+	border-color: #50616e;
+	&:hover {
+		@include button-hover;
 	}
 }
 
