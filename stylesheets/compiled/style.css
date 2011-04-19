@@ -682,7 +682,8 @@ body {
   color: #e6e6e6;
   letter-spacing: 0.03em;
   font-weight: 300;
-  text-shadow: 0px 0px 3px #363e45; }
+  text-shadow: 0px 0px 3px #363e45;
+  overflow: hidden; }
 
 #media {
   background: url(/images/bg/media.gif) repeat;
@@ -767,10 +768,11 @@ img.author {
   border: 1px solid #1a2b38;
   overflow: hidden;
   position: absolute;
-  right: -55px;
-  top: 40px;
-  -moz-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  left: -3.5em;
+  top: 2.5em;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  /* shadow */
   border-color: #50616e; }
   #fork:hover {
     color: #fff !important;

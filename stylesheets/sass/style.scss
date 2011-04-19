@@ -14,6 +14,7 @@ body {
 	letter-spacing: 0.03em;
 	font-weight: $medium;
 	text-shadow: 0px 0px 3px #363e45;
+	overflow: hidden;
 }
 
 #media {
@@ -84,16 +85,18 @@ img.author {
 		border: 1px solid #faa;		
 	}
 }
+
 #fork {
 	width: 200px;
 	text-align: center;
 	@include button-base;
 	overflow: hidden;
 	position: absolute;
-  right: -55px;
-  top: 40px;
-  -moz-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  left: -3.5em;
+  top: 2.5em;
+	-moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  /* shadow */
 	border-color: #50616e;
 	&:hover {
 		@include button-hover;
