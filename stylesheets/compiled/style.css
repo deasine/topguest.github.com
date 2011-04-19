@@ -752,7 +752,7 @@ img.author {
   .button:hover {
     color: #fff !important;
     background: #11202A;
-    border: 1px solid #faa; }
+    /*		border: 1px solid #faa;		*/ }
 
 #fork {
   width: 200px;
