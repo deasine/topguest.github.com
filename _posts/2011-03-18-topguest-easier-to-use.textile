@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Topguest gets a facelift
-filename: 2011-03-18-topguest-easier-to-use.textile
 author: Nathan McGinness
 author-image: nathan-mcginness.jpg
 author-link: http://www.linkedin.com/pub/nathan-mcginness/3/b2a/800

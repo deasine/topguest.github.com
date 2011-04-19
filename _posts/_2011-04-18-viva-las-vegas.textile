@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Viva Las Vegas &ndash; Topguest and Total Rewards
-filename: 2011-04-18-viva-las-vegas.textile
 author: Geoff Lewis
 author-image: geoff-lewis.jpg
 author-link: http://www.linkedin.com/pub/geoffrey-lewis/2/ba/49a
