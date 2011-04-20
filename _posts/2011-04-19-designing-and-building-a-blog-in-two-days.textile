@@ -26,7 +26,7 @@ _Half day:_ Integrating Jekyll's templating system and making use of Liquid.
 
 _Half day:_ Getting the Topguest team to contribute content by pulling and pushing to our Github repo.
 
-The beauty of the whole process was that it leveraged the tools I (and any self-respecting web designer) use every day &ndash; a text editor ("Textmate":http://macromates.com/, I love you) and Git. I found that Jekyll and Liquid had almost no entrance barriers meaning I wasted no time learning a new framework, hunting around documentation or looking for libraries and plug-ins. I was also able to design and build completely custom templates without the friction that can come along with a more fleshed-out framework.
+The beauty of the whole process was that it leveraged the tools I (and any self-respecting web designer) use every day &ndash; a text editor ("Textmate":http://macromates.com/, I love you) and Git. I found that Jekyll and Liquid had almost no entrance barriers so I wasted no time learning a new framework, hunting around documentation or looking for libraries and plug-ins. I was also able to design and build completely custom templates without the friction that can come along with a more fleshed-out framework. 
 
 This workflow requires that your authors be comfortable enough at the command line to _pull_, _add_, and _push_ with Git. It suits a small tech start-up like us perfectly, but countless roles and professions could benefit from an hour or so of Git training. It means content is backed up and versioned throughly and we also think it would be awesome to accept pull requests from guest contributors on "Github":https://github.com/Topguest/topguest.github.com.
 
