@@ -13,7 +13,7 @@ h1. {{ page.title }}
 
 Topguest is an early-stage startup developing social loyalty solutions for the largest global loyalty programs in the world, including Hilton HHonors, Priority Club, and Virgin America Elevate. The consumer brand, Topguest.com, gives social travelers premier perks from top rewards programs. For loyalty program customers, the company provides a one-touch link between loyalty member databases and all the mobile-social services that matter, from Instagram to Facebook. The Company was founded in mid-2010, and is backed by Founders Fund and leading angel investors like Ron Conway, Keith Rabois, and Naval Ravikant.  
 
-_Topguest is seeking a first-rate Salesperson. This team member will work closely with our CEO to accelerate Topguest's growth even further . The first 3 months in role will be a trial period to gauge mutual fit._
+_Topguest is seeking a first-rate Salesperson. This team member will work closely with our CEO to accelerate Topguest's growth even further. The first 3 months in role will be a trial period to gauge mutual fit._
 
 *Core Requirements:*
 
