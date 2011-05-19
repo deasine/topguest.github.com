@@ -9,7 +9,7 @@ summary: At Topguest, we are obsessed with finding more ways to give you more po
 
 h1. {{ page.title }}
 
-At Topguest, we are obsessed with finding more ways to give you more points from more of the top rewards programs you love.
+_At Topguest, we are obsessed with finding more ways to give you more points from more of the top rewards programs you love._
 
 That’s why we are pleased to announce our latest global integration with Best Western Rewards, the loyalty program of Best Western, which is the biggest hotel family in the world with over 4000 hotels!
 
