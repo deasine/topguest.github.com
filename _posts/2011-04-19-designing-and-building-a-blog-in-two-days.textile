@@ -3,7 +3,7 @@ layout: post
 title: Designing and building a blog in two days
 author: Nathan McGinness
 author-image: nathan-mcginness.jpg
-author-link: http://www.linkedin.com/pub/nathan-mcginness/3/b2a/800
+author-link: http://njmcgee.com
 <!-- summary-only: yes -->
 summary: The task of building a Topguest blog has been in our backlog for a while. Thanks to a handful of great open-source tools we were able to bite the bullet and get one out the door in a matter of days.
 ---
