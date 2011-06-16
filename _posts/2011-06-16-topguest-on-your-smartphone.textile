@@ -15,7 +15,7 @@ We are thrilled to announce a brand new mobile version of Topguest. Visit "topgu
 
 It’s all about making it easier to get points while on the go. We hope it helps you discover new venues, hotels, bars and restaurants in your immediate vicinity, while at the same time introducing you to new rewards programs and more points!
 
-This is beginning of Topguest’s move to a platform agnostic approach to mobile. For those users making use of our Android and iPhone applications, we urge you to give the mobile website a try. You'll find all the same functionality with a brand new design. 
+This is the beginning of Topguest’s move to a platform agnostic approach to mobile. For those users making use of our Android and iPhone applications, we urge you to give the mobile website a try. You'll find all the same functionality with a brand new design. 
 
 Please "get in touch":mailto:nathan@topguest.com if you have any feedback.
 
