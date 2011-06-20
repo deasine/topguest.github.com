@@ -4,7 +4,7 @@
 
 html {
 	-webkit-font-smoothing: antialiased; 
-	background: #131517;
+	background: #262C31;
 }
 
 body { 
@@ -18,13 +18,14 @@ body {
 }
 
 #media {
-	background: url(/images/bg/media.gif) repeat;
-	overflow: hidden;	
-	border-bottom: 2px solid #2d3339;
+	background: url(/images/bg/media.png) repeat;
+	overflow: hidden;		
+	color: $footer-text;
 }
 
 footer {
-	background: #131517;
+	background: #262C31;
+	color: $footer-text;
 }
 
 .container_12 {
@@ -38,6 +39,15 @@ a, a:active, a:visited {
 }
 a:hover {
 	color: $link-hover-color;
+}
+footer a, footer a:active, footer a:visited, #media a, #media a:active, #media a:visited {
+	color: #6BB9F2;
+}
+footer a:hover, #media a:hover {
+	color: #dfe6f3;
+}
+#media a#press-button {
+	color: inherit;
 }
 h2 {
 	font-size: $font-size * 2;
@@ -164,7 +174,7 @@ homepage
 		float: left;
 		margin: 0 20px 20px 0;
 		display: block;
-		border: 2px solid $line-color;
+		border: 2px solid #2d3339;
 		&.omega {
 			margin-right: 0;
 		}
